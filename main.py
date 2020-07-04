@@ -11,7 +11,7 @@ for counter in range(1, waiting_time):
     sleep(1)
 search = browser.find_element_by_xpath("//*[@id='query']")
 search.send_keys(searchmusic)
-for counter in range(1, 10):
+for counter in range(1, waiting_time):
     print("Waiting for " + str(counter) + " just to make sure the website is already loaded\n")
     sleep(1)
 
